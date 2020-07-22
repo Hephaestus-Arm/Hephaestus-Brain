@@ -383,4 +383,32 @@ Wire Wire Line
 Wire Wire Line
 	4300 4850 4750 4850
 Connection ~ 4300 4500
+$Comp
+L Connector:Conn_01x02_Female J8
+U 1 1 5F188735
+P 4950 5150
+F 0 "J8" H 4978 5126 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 4978 5035 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4950 5150 50  0001 C CNN
+F 3 "~" H 4950 5150 50  0001 C CNN
+	1    4950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F18915B
+P 4650 5250
+F 0 "#PWR0104" H 4650 5000 50  0001 C CNN
+F 1 "GND" V 4655 5122 50  0000 R CNN
+F 2 "" H 4650 5250 50  0001 C CNN
+F 3 "" H 4650 5250 50  0001 C CNN
+	1    4650 5250
+	0    1    -1   0   
+$EndComp
+Text GLabel 4650 5150 0    50   Input ~ 0
+11
+Wire Wire Line
+	4750 5150 4650 5150
+Wire Wire Line
+	4650 5250 4750 5250
 $EndSCHEMATC
