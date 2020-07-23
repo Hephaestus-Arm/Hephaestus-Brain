@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 13)
     (tracks 83)
     (zones 0)
     (modules 14)
@@ -227,7 +227,7 @@
     (descr "Thin-pin DC Barrel Jack, https://cdn-shop.adafruit.com/datasheets/21mmdcjackDatasheet.pdf")
     (tags "Power Jack")
     (path /5F18AA9E)
-    (fp_text reference J1 (at 5.75 8.45 90) (layer F.SilkS)
+    (fp_text reference J1 (at 5.75 8.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Barrel_Jack (at -5.5 6.2 90) (layer F.Fab)
@@ -284,7 +284,7 @@
     (descr "Through hole straight socket strip, 1x14, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x14 2.54mm single row")
     (path /5F1712C0)
-    (fp_text reference J2 (at 0 -2.77) (layer F.SilkS)
+    (fp_text reference J2 (at 0 -2.77) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ItsyBitsy (at 0 35.79) (layer F.Fab)
@@ -412,7 +412,7 @@
     (descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x03 2.54mm single row")
     (path /5F185295)
-    (fp_text reference J4 (at 0 -2.77 90) (layer F.SilkS)
+    (fp_text reference J4 (at 0 -2.77 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x03_Male (at 0 7.85 90) (layer F.Fab)
@@ -454,7 +454,7 @@
     (descr "JST PH series connector, B3B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH side entry")
     (path /5F189CE4)
-    (fp_text reference J5 (at 2 -2.9 90) (layer F.SilkS)
+    (fp_text reference J5 (at 2 -2.9 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x03_Male (at 2 4 90) (layer F.Fab)
@@ -520,7 +520,7 @@
     (descr "JST PH series connector, B3B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH side entry")
     (path /5F188487)
-    (fp_text reference J6 (at 2 -2.9 90) (layer F.SilkS)
+    (fp_text reference J6 (at 2 -2.9 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x03_Male (at 2 4 90) (layer F.Fab)
@@ -652,7 +652,7 @@
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /5F17E882)
-    (fp_text reference U1 (at 3.81 -2.33) (layer F.SilkS)
+    (fp_text reference U1 (at 3.81 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 74126 (at 3.81 17.57) (layer F.Fab)
@@ -708,7 +708,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F1920B6)
     (attr virtual)
-    (fp_text reference H1 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -728,7 +728,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F193B06)
     (attr virtual)
-    (fp_text reference H2 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H2 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -747,7 +747,7 @@
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /5F19DD94)
-    (fp_text reference SW2 (at 3.25 -2 90) (layer F.SilkS)
+    (fp_text reference SW2 (at 3.25 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_SPST (at 3.75 6.7 90) (layer F.Fab)
@@ -798,7 +798,7 @@
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")
     (path /5F1ACAE6)
-    (fp_text reference SW3 (at 3.25 -2 90) (layer F.SilkS)
+    (fp_text reference SW3 (at 3.25 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_SPST (at 3.75 6.7 90) (layer F.Fab)
@@ -849,7 +849,7 @@
     (descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x03 2.54mm single row")
     (path /5F1B3FC7)
-    (fp_text reference J8 (at 0 -2.77 90) (layer F.SilkS)
+    (fp_text reference J8 (at 0 -2.77 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x03_Male (at 0 7.85 90) (layer F.Fab)
@@ -886,6 +886,22 @@
     )
   )
 
+  (gr_line (start 187.8965 68.453) (end 187.8965 70.8025) (layer F.SilkS) (width 0.4))
+  (gr_text "SW MOTOR DISABLE" (at 189.23 68.58 90) (layer F.SilkS) (tstamp 5F1AB9DD)
+    (effects (font (size 0.9 0.9) (thickness 0.2)))
+  )
+  (gr_text USER (at 186.218 75.057) (layer F.SilkS) (tstamp 5F1AB9DD)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text BELT (at 184.531 99.568 90) (layer F.SilkS) (tstamp 5F1AB828)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text GRIP (at 184.531 103.251 90) (layer F.SilkS) (tstamp 5F1AB820)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text HOME (at 186.218 96.012) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_line (start 163.195 114.046) (end 163.195 60.96) (layer Edge.Cuts) (width 0.05) (tstamp 5F19D39F))
   (gr_line (start 190.5 114.046) (end 190.5 103.505) (layer Edge.Cuts) (width 0.05) (tstamp 5F19D39B))
   (gr_line (start 190.373 114.046) (end 190.5 114.046) (layer Edge.Cuts) (width 0.05))
