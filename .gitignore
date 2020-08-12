@@ -1,0 +1,13 @@
+
+gerbers.zip
+gerbers/hephaestus-brain-pcb-B_Cu.gbr
+gerbers/hephaestus-brain-pcb-B_Mask.gbr
+gerbers/hephaestus-brain-pcb-B_Paste.gbr
+gerbers/hephaestus-brain-pcb-B_SilkS.gbr
+gerbers/hephaestus-brain-pcb-Edge_Cuts.gbr
+gerbers/hephaestus-brain-pcb-F_Cu.gbr
+gerbers/hephaestus-brain-pcb-F_Mask.gbr
+gerbers/hephaestus-brain-pcb-F_Paste.gbr
+gerbers/hephaestus-brain-pcb-F_SilkS.gbr
+gerbers/hephaestus-brain-pcb-NPTH.drl
+gerbers/hephaestus-brain-pcb-PTH.drl
