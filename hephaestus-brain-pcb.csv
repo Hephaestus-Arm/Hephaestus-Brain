@@ -4,5 +4,5 @@ J2 J3 ,2,"ItsyBitsy",S7012-ND,"Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm
 J4 J8 ,2,"Conn_01x03_Male",PPPC031LFBN-RC,"Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
 J5 J6 J7 ,3,"Conn_01x03_Male",455-1705-ND,"Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical","B3B-PH-K-S(LF)(SN)"
 SW1 ,1,"SW_SPDT",OS102011MS2QS1,"Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q","~"
-SW2 SW3 ,2,"SW_SPST",Schurter Inc.,"Button_Switch_THT:SW_PUSH_6mm","~"
+SW2 SW3 ,2,"SW_SPST",486-3460-ND,"Button_Switch_THT:SW_PUSH_6mm","~"
 U1 ,1,"74126",296-8221-5-ND,"Package_DIP:DIP-14_W7.62mm",""
