@@ -1,4 +1,4 @@
-18536059290858720
+18537664223504320
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81631,8 +81631,8 @@ DC-005-5A-2.0-SMT
 
 
 0
-0
-0
+4
+3
 unified
 FLASH_2x3_USON8
 
@@ -81640,6 +81640,13 @@ FLASH_2x3_USON8
 0
 9
 9
+unified
+LED-APA102-2020
+http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
+LED RGB SPI
+0
+8
+6
 unified
 QFN50P700X700X90-49N-D
 48 pin QFN MO-220
