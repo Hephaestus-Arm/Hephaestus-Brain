@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ATSAMD51G19A-MU)(type Legacy)(uri ${KIPRJMOD}/sch_lib/ATSAMD51G19A-MU.lib)(options "")(descr ""))
+)
