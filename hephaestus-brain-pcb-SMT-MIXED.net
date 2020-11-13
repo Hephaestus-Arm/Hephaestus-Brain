@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\AlexCamilo\Documents\GitHub\Hephaestus-Brain\hephaestus-brain-pcb-SMT-MIXED.sch)
-    (date "11/13/2020 12:52:16 PM")
+    (date "11/13/2020 3:10:03 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 5F189CE4))
     (comp (ref J1)
       (value Barrel_Jack)
-      (footprint Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal)
+      (footprint Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002)
       (datasheet PJ-102AH)
       (fields
         (field (name lcsc) C319134)
