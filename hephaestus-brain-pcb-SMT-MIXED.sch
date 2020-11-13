@@ -1119,4 +1119,104 @@ F 3 "" H 12700 3950 50  0001 C CNN
 $EndComp
 Text GLabel 12700 3850 0    50   Input ~ 0
 SWCLK
+$Comp
+L USB4110-GF-A:USB4110-GF-A J8
+U 1 1 5FAEF4FA
+P 9550 -600
+F 0 "J8" H 9550 -33 50  0000 C CNN
+F 1 "USB4110-GF-A" H 9550 -124 50  0000 C CNN
+F 2 "unified:GCT_USB4110-GF-A" H 9550 -600 50  0001 L BNN
+F 3 "3.26 mm" H 9550 -600 50  0001 L BNN
+F 4 "A" H 9550 -600 50  0001 L BNN "Field4"
+F 5 "GCT" H 9550 -600 50  0001 L BNN "Field5"
+F 6 "Manufacturer Recommendations" H 9550 -600 50  0001 L BNN "Field6"
+	1    9550 -600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8850 -600 0    50   Input ~ 0
+D+
+Text GLabel 10250 -600 2    50   Input ~ 0
+D+
+Text GLabel 10250 -500 2    50   Input ~ 0
+D-
+Text GLabel 8850 -500 0    50   Input ~ 0
+D-
+$Comp
+L Device:R_Small R5
+U 1 1 5FAF0FFD
+P 10450 -700
+F 0 "R5" H 10509 -654 50  0000 L CNN
+F 1 "5.1k" H 10509 -745 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10450 -700 50  0001 C CNN
+F 3 "~" H 10450 -700 50  0001 C CNN
+	1    10450 -700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5FAF1F44
+P 8650 -700
+F 0 "R4" H 8709 -654 50  0000 L CNN
+F 1 "5.1k" H 8709 -745 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8650 -700 50  0001 C CNN
+F 3 "~" H 8650 -700 50  0001 C CNN
+	1    8650 -700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 5FAF28B7
+P 8450 -700
+F 0 "#PWR0138" H 8450 -950 50  0001 C CNN
+F 1 "GND" H 8455 -873 50  0000 C CNN
+F 2 "" H 8450 -700 50  0001 C CNN
+F 3 "" H 8450 -700 50  0001 C CNN
+	1    8450 -700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 5FAF2FB3
+P 10650 -700
+F 0 "#PWR0139" H 10650 -950 50  0001 C CNN
+F 1 "GND" H 10655 -873 50  0000 C CNN
+F 2 "" H 10650 -700 50  0001 C CNN
+F 3 "" H 10650 -700 50  0001 C CNN
+	1    10650 -700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 5FAF3881
+P 10350 -200
+F 0 "#PWR0140" H 10350 -450 50  0001 C CNN
+F 1 "GND" H 10355 -373 50  0000 C CNN
+F 2 "" H 10350 -200 50  0001 C CNN
+F 3 "" H 10350 -200 50  0001 C CNN
+	1    10350 -200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 -700 10250 -700
+Wire Wire Line
+	10650 -700 10550 -700
+Wire Wire Line
+	8850 -700 8750 -700
+Wire Wire Line
+	8550 -700 8450 -700
+Wire Wire Line
+	10350 -200 10250 -200
+$Comp
+L power:+5VP #PWR0141
+U 1 1 5FAFF597
+P 10350 -900
+F 0 "#PWR0141" H 10350 -1050 50  0001 C CNN
+F 1 "+5VP" V 10365 -772 50  0000 L CNN
+F 2 "" H 10350 -900 50  0001 C CNN
+F 3 "" H 10350 -900 50  0001 C CNN
+	1    10350 -900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10350 -900 10250 -900
 $EndSCHEMATC
