@@ -542,23 +542,6 @@ Wire Wire Line
 	6300 1550 6500 1550
 Wire Wire Line
 	6500 1550 6500 1500
-$Comp
-L Connector:USB_B_Micro J3
-U 1 1 5FA9715B
-P 9200 1000
-F 0 "J3" H 9257 1467 50  0000 C CNN
-F 1 "USB_B_Micro" H 9257 1376 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 9350 950 50  0001 C CNN
-F 3 "~" H 9350 950 50  0001 C CNN
-	1    9200 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 1400 9100 1450
-Wire Wire Line
-	9200 1400 9200 1450
-Wire Wire Line
-	9200 1450 9100 1450
 Wire Wire Line
 	5050 1550 5150 1550
 $Comp
@@ -612,25 +595,10 @@ F 3 "" H 4750 1200 50  0001 C CNN
 	1    4750 1200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+5VP #PWR0132
-U 1 1 5FAB03EB
-P 9500 800
-F 0 "#PWR0132" H 9500 650 50  0001 C CNN
-F 1 "+5VP" V 9515 928 50  0000 L CNN
-F 2 "" H 9500 800 50  0001 C CNN
-F 3 "" H 9500 800 50  0001 C CNN
-	1    9500 800 
-	0    1    1    0   
-$EndComp
 Text GLabel 9150 4150 2    50   Input ~ 0
 D-
 Text GLabel 9150 4250 2    50   Input ~ 0
 D+
-Text GLabel 9500 1000 2    50   Input ~ 0
-D+
-Text GLabel 9500 1100 2    50   Input ~ 0
-D-
 $Comp
 L Device:C_Small C6
 U 1 1 5FAB1CEE
@@ -789,18 +757,6 @@ F 3 "" H 4650 4950 50  0001 C CNN
 	1    4650 4950
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 5FAE29FD
-P 9200 1450
-F 0 "#PWR0119" H 9200 1200 50  0001 C CNN
-F 1 "GND" H 9205 1277 50  0000 C CNN
-F 2 "" H 9200 1450 50  0001 C CNN
-F 3 "" H 9200 1450 50  0001 C CNN
-	1    9200 1450
-	1    0    0    -1  
-$EndComp
-Connection ~ 9200 1450
 Wire Wire Line
 	2700 1550 3100 1550
 $Comp
@@ -1022,29 +978,10 @@ Text GLabel 9150 3550 2    50   Input ~ 0
 7
 Text GLabel 3050 4350 2    50   Input ~ 0
 7
-$Comp
-L Connector_Generic:Conn_02x10_Odd_Even J4
-U 1 1 5FBE64F5
-P 13000 3450
-F 0 "J4" H 13050 4067 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 13050 3976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 13000 3450 50  0001 C CNN
-F 3 "~" H 13000 3450 50  0001 C CNN
-	1    13000 3450
-	-1   0    0    -1  
-$EndComp
 Text GLabel 9150 3250 2    50   Input ~ 0
-PA15
-Text GLabel 13200 3050 2    50   Input ~ 0
 PA15
 Text GLabel 9150 3150 2    50   Input ~ 0
 PA14
-Text GLabel 12700 3050 0    50   Input ~ 0
-PA14
-Text GLabel 13200 3150 2    50   Input ~ 0
-SCL
-Text GLabel 12700 3150 0    50   Input ~ 0
-SDA
 Text GLabel 9150 4350 2    50   Input ~ 0
 PA27
 Text GLabel 9150 2450 2    50   Input ~ 0
@@ -1069,56 +1006,6 @@ Text GLabel 7850 3650 0    50   Input ~ 0
 PB22
 Text GLabel 7850 3750 0    50   Input ~ 0
 PB23
-Text GLabel 13200 3250 2    50   Input ~ 0
-PA07
-Text GLabel 13200 3350 2    50   Input ~ 0
-PA05
-Text GLabel 13200 3450 2    50   Input ~ 0
-PB09
-Text GLabel 13200 3550 2    50   Input ~ 0
-PA02
-Text GLabel 13200 3650 2    50   Input ~ 0
-PA00
-Text GLabel 13200 3750 2    50   Input ~ 0
-PA27
-Text GLabel 13200 3850 2    50   Input ~ 0
-PB22
-Text GLabel 12700 3750 0    50   Input ~ 0
-PB23
-Text GLabel 12700 3650 0    50   Input ~ 0
-SWDIO
-Text GLabel 12700 3550 0    50   Input ~ 0
-PA01
-Text GLabel 12700 3450 0    50   Input ~ 0
-PB08
-Text GLabel 12700 3350 0    50   Input ~ 0
-PA04
-Text GLabel 12700 3250 0    50   Input ~ 0
-PA06
-$Comp
-L power:GND #PWR0136
-U 1 1 5FBF8572
-P 13200 3950
-F 0 "#PWR0136" H 13200 3700 50  0001 C CNN
-F 1 "GND" V 13205 3822 50  0000 R CNN
-F 2 "" H 13200 3950 50  0001 C CNN
-F 3 "" H 13200 3950 50  0001 C CNN
-	1    13200 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR0137
-U 1 1 5FBF92B7
-P 12700 3950
-F 0 "#PWR0137" H 12700 3800 50  0001 C CNN
-F 1 "VCC" V 12715 4123 50  0000 C CNN
-F 2 "" H 12700 3950 50  0001 C CNN
-F 3 "" H 12700 3950 50  0001 C CNN
-	1    12700 3950
-	0    -1   -1   0   
-$EndComp
-Text GLabel 12700 3850 0    50   Input ~ 0
-SWCLK
 $Comp
 L USB4110-GF-A:USB4110-GF-A J8
 U 1 1 5FAEF4FA
@@ -1219,4 +1106,67 @@ F 3 "" H 10350 -900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10350 -900 10250 -900
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5FAF1AFD
+P 6100 -800
+F 0 "J3" H 6208 -519 50  0000 C CNN
+F 1 "StemmaQT" H 6208 -610 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6100 -800 50  0001 C CNN
+F 3 "~" H 6100 -800 50  0001 C CNN
+	1    6100 -800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5FAF284B
+P 6300 -900
+F 0 "#PWR0119" H 6300 -1150 50  0001 C CNN
+F 1 "GND" V 6305 -1073 50  0000 C CNN
+F 2 "" H 6300 -900 50  0001 C CNN
+F 3 "" H 6300 -900 50  0001 C CNN
+	1    6300 -900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0132
+U 1 1 5FAF2D41
+P 6300 -800
+F 0 "#PWR0132" H 6300 -950 50  0001 C CNN
+F 1 "+3V3" V 6315 -627 50  0000 C CNN
+F 2 "" H 6300 -800 50  0001 C CNN
+F 3 "" H 6300 -800 50  0001 C CNN
+	1    6300 -800
+	0    1    1    0   
+$EndComp
+Text GLabel 6300 -700 2    50   Input ~ 0
+SDA
+Text GLabel 6300 -600 2    50   Input ~ 0
+SCL
+$Comp
+L Connector:Conn_01x03_Female J4
+U 1 1 5FAF396B
+P 10200 4500
+F 0 "J4" H 10228 4526 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 10228 4435 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 10200 4500 50  0001 C CNN
+F 3 "~" H 10200 4500 50  0001 C CNN
+	1    10200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 5FAF49CA
+P 10000 4400
+F 0 "#PWR0136" H 10000 4150 50  0001 C CNN
+F 1 "GND" V 10005 4227 50  0000 C CNN
+F 2 "" H 10000 4400 50  0001 C CNN
+F 3 "" H 10000 4400 50  0001 C CNN
+	1    10000 4400
+	0    1    1    0   
+$EndComp
+Text GLabel 10000 4600 0    50   Input ~ 0
+SWDIO
+Text GLabel 10000 4500 0    50   Input ~ 0
+SWCLK
 $EndSCHEMATC
