@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\AlexCamilo\Documents\GitHub\Hephaestus-Brain\hephaestus-brain-pcb-SMT-MIXED.sch)
-    (date "11/13/2020 6:01:12 PM")
+    (date "11/15/2020 10:31:10 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -120,7 +120,7 @@
       (tstamp 5FAA8F49))
     (comp (ref U3)
       (value AT25xxx-MA)
-      (footprint Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm)
+      (footprint unified:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf)
       (libsource (lib Memory_EEPROM) (part AT25xxx-MA) (description "Microchip SPI Serial EEPROM, DFN8"))
       (sheetpath (names /) (tstamps /))
@@ -193,7 +193,7 @@
       (tstamp 5FAB1CEE))
     (comp (ref D3)
       (value APA102-2020)
-      (footprint LED_SMD:LED-APA102-2020)
+      (footprint unified:LED-APA102-2020)
       (datasheet http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf)
       (libsource (lib LED) (part APA102-2020) (description "RGB LED with integrated controller"))
       (sheetpath (names /) (tstamps /))

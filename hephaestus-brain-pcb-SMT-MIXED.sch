@@ -54,7 +54,7 @@ U 1 1 5F18AA9E
 P 1400 1650
 F 0 "J1" H 1457 1975 50  0000 C CNN
 F 1 "Barrel_Jack" H 1457 1884 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1450 1610 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 1450 1610 50  0001 C CNN
 F 3 "PJ-102AH" H 1450 1610 50  0001 C CNN
 F 4 "DC-005-5A-2.0-SMT" H 1400 1650 50  0001 C CNN "mpn"
 F 5 "C319134" H 1400 1650 50  0001 C CNN "lcsc"
@@ -355,7 +355,7 @@ U 1 1 5FA9124F
 P 6750 5850
 F 0 "U3" H 6500 6100 50  0000 C CNN
 F 1 "AT25xxx-MA" H 7050 6100 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6750 5850 50  0001 C CNN
+F 2 "unified:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6750 5850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf" H 6750 5850 50  0001 C CNN
 	1    6750 5850
 	1    0    0    -1  
@@ -636,7 +636,7 @@ U 1 1 5FAC32BD
 P 6450 3950
 F 0 "D3" H 6250 4250 50  0000 C CNN
 F 1 "APA102-2020" H 6750 3700 50  0000 C CNN
-F 2 "LED_SMD:LED-APA102-2020" H 6500 3650 50  0001 L TNN
+F 2 "unified:LED-APA102-2020" H 6500 3650 50  0001 L TNN
 F 3 "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf" H 6550 3575 50  0001 L TNN
 	1    6450 3950
 	1    0    0    -1  
@@ -976,8 +976,6 @@ F 3 "~" H 5600 350 50  0001 C CNN
 $EndComp
 Text GLabel 9150 3550 2    50   Input ~ 0
 7
-Text GLabel 3050 4350 2    50   Input ~ 0
-7
 Text GLabel 9150 3250 2    50   Input ~ 0
 PA15
 Text GLabel 9150 3150 2    50   Input ~ 0
@@ -1169,4 +1167,14 @@ Text GLabel 10000 4600 0    50   Input ~ 0
 SWDIO
 Text GLabel 10000 4500 0    50   Input ~ 0
 SWCLK
+NoConn ~ 5950 3000
+NoConn ~ 9350 4050
+NoConn ~ 3300 4000
+NoConn ~ 8300 5250
+Text GLabel 7150 1850 0    50   Input ~ 0
+RST
+Wire Wire Line
+	7200 1850 7150 1850
+Text GLabel 3050 4350 2    50   Input ~ 0
+RST
 $EndSCHEMATC
