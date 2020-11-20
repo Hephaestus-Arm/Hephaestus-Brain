@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\AlexCamilo\Documents\GitHub\Hephaestus-Brain\hephaestus-brain-pcb-SMT.sch)
-    (date "11/9/2020 6:06:41 PM")
+    (date "11/15/2020 10:28:35 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -120,7 +120,7 @@
       (tstamp 5FAA8F49))
     (comp (ref U3)
       (value AT25xxx-MA)
-      (footprint Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm)
+      (footprint unified:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf)
       (libsource (lib Memory_EEPROM) (part AT25xxx-MA) (description "Microchip SPI Serial EEPROM, DFN8"))
       (sheetpath (names /) (tstamps /))

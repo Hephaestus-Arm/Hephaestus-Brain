@@ -355,7 +355,7 @@ U 1 1 5FA9124F
 P 6750 5850
 F 0 "U3" H 6500 6100 50  0000 C CNN
 F 1 "AT25xxx-MA" H 7050 6100 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6750 5850 50  0001 C CNN
+F 2 "unified:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6750 5850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf" H 6750 5850 50  0001 C CNN
 	1    6750 5850
 	1    0    0    -1  
