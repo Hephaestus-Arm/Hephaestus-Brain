@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name unified)(type KiCad)(uri ${KIPRJMOD}/fp_lib/unified.pretty)(options "")(descr ""))
+  (lib (name SS-12D06L5)(type KiCad)(uri ${KIPRJMOD}/fp_lib/SS-12D06L5.pretty)(options "")(descr ""))
 )
