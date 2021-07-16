@@ -5,3 +5,4 @@ gerbers*/*
 _autosave-*
 *.sch-bak
 *.xls#
+.svg2*

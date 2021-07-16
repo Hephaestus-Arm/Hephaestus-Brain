@@ -2,4 +2,5 @@
   (lib (name unified)(type KiCad)(uri ${KIPRJMOD}/fp_lib/unified.pretty)(options "")(descr ""))
   (lib (name SS-12D06L5)(type KiCad)(uri ${KIPRJMOD}/fp_lib/SS-12D06L5.pretty)(options "")(descr ""))
   (lib (name testpoint-keystone-5005)(type KiCad)(uri ${KIPRJMOD}/fp_lib/testpoint-keystone-5005.pretty)(options "")(descr ""))
+  (lib (name qrcode)(type KiCad)(uri ${KIPRJMOD}/fp_lib/qrcode.pretty)(options "")(descr ""))
 )
